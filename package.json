@@ -10,14 +10,17 @@
   "author": "Andrew McDowell <madoliole@gmail.com> (http://madole.github.io/)",
   "license": "ISC",
   "dependencies": {
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.9.3",
     "express": "^4.13.3",
     "jade": "^1.11.0",
-    "jade-loader": "^0.7.1",
-    "mi9-stylus-imports-webpack": "git+https://stash.9msn.net/scm/mod/mi9-stylus-imports-webpack.git#2.0.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "coffeelint-loader": "^0.1.1",
     "stylus-loader": "^1.2.1",
     "webpack": "^1.11.0",
-    "webpack-dev-middleware": "^1.2.0"
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^1.2.0"
   }
 }
