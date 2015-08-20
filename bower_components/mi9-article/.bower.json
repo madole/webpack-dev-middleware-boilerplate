@@ -1,0 +1,25 @@
+{
+  "name": "mi9-article",
+  "version": "2.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://stash.9msn.net/scm/mod/mi9-article-client.git"
+  },
+  "main": "build/lib/module.js",
+  "dependencies": {
+    "mi9-ads-common": "git+https://stash.9msn.net/scm/mod/mi9-ads-common.git#2.0.0",
+    "normalize.css": "~3.0.3"
+  },
+  "ignore": [],
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.0",
+    "commit": "1263f8740aad55abfc6691075332772a46acd962"
+  },
+  "_source": "ssh://git@stash.9msn.net:7999/mod/mi9-article-client.git",
+  "_target": "~2.0.0",
+  "_originalSource": "ssh://git@stash.9msn.net:7999/mod/mi9-article-client.git",
+  "_direct": true
+}

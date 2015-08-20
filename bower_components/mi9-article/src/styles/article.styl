@@ -1,0 +1,197 @@
+.article
+    background-color: #fff
+    .widget-ad
+        margin-bottom: 15px
+
+.article__headline
+    margin: 10px 0
+    display: block
+    font-family: font-family-heading
+    font-size: 25px
+    font-weight: font-weight-bold
+    line-height: 1.1
+
+    @media query-gt-md
+        font-size: 36px
+
+.article__hero-caption
+    margin-bottom: 15px
+    color: color-gray-light
+    font-family: font-family-sans-serif
+    font-size: 14px
+    font-weight: font-weight-regular
+    line-height: 1.2
+
+    &:empty
+        display: none
+
+.article__byline
+    margin-bottom: 10px
+    margin-right: 10px
+    display: inline-block
+
+.article__social
+    position: relative
+    display: inline-block
+    width: 100%
+    margin: 5px 0 20px
+    padding-top: 15px
+    clearfix()
+
+.article__share
+    float: left
+    &:before
+        content: 'Share'
+        color: color-gray-light
+        text-transform: uppercase
+        font-family: font-family-heading
+        font-size: 14px
+        font-weight: font-weight-semibold
+        line-height: 1.1
+        position: absolute
+        top: -2px
+
+.article__comments-jump
+    float: right
+    background: #CC146D
+
+    span
+        display: none
+        @media query-gt-sm
+            display: inline
+            font-family: font-family-sans-serif
+            font-size: 11px
+            font-weight: font-weight-regular
+            line-height: 1.2
+            color: white
+            vertical-align: middle
+            padding-right: 8px
+            height: 30px
+
+    .article__comments-icon
+        display: inline-block
+        vertical-align: middle
+        background: url('../assets/svg/ico_comments.svg')
+        width: 35px
+        height:35px
+        @media query-gt-sm
+            width: 30px
+            height:30px
+
+.article__time--desktop
+    margin-bottom:  5px
+    display: none
+    @media query-gt-sm
+        display: inline-block
+
+.article__time--mobile
+    margin-bottom:  5px
+    display: block
+    @media query-gt-sm
+        display: none
+
+.article__body
+    p
+        margin: 0 0 20px 0
+
+        &:empty
+            display: none
+
+    img
+        width: 100%
+        margin: 10px 0
+        height: auto
+
+    .advert[data-ad-type=MBANNER]
+        padding: 10px 0
+
+        @media (max-width: 320px)
+            margin-left: -10px
+
+    .advert[data-ad-type=MEDIUM] > div:before
+        content: ''
+        height: 12px
+        background-image: url('../assets/png/more-after-advert.png')
+        background-repeat: no-repeat
+        background-position: 50% 0
+        width: 100%
+        padding-bottom: 3px
+        display: block
+
+.article__tags
+    list-style: none
+    text-transform: uppercase
+    margin: 15px 0 30px 0
+    padding: 0
+
+.article__tag
+    background: color-tag
+    font-family: font-family-header
+    font-size: 14px
+    font-weight: font-weight-regular
+    line-height: 1.1
+    letter-spacing: 0.02em
+    padding: 8px
+    display: inline-block
+    border-radius: 5px
+    margin-bottom: 4px
+
+    a
+        color: color-gray-dark
+
+.article__related
+    margin-bottom: 30px
+    clearfix()
+
+.article__related-item
+    float: left
+    width: 50%
+    padding-right: 3%
+
+    h3
+        margin: 0
+        font-family: font-family-heading
+        font-size: 23px
+        font-weight: font-weight-bold
+        line-height: 1.1
+        color: color-brand-primary
+
+.related
+    font-family: font-family-heading
+    font-size: 16px
+    font-weight: font-weight-semibold
+    line-height: 1.1
+    color: color-gray-dark
+
+    &:hover
+        text-decoration: none
+
+.related__image
+    width: 100%
+    @media query-gt-md
+        width: 50%
+
+.related__heading
+    @media query-gt-md
+        vertical-align: top
+        width: 45%
+        display: inline-block
+        margin-left: 10px
+
+.article__comments
+    border-top: solid 1px color-gray-lightest
+    padding-top: 10px
+
+.article_comments-header
+    font-family: font-family-heading
+    font-size: 18px
+    font-weight: font-weight-bold
+    line-height: 1.1
+    color: color-brand-primary
+
+@media query-gt-sm
+    .article
+        .widget-ad
+            display: none
+
+
