@@ -1,7 +1,11 @@
 {
   "name": "expressapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack Dev Middleware Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/madole/webpack-dev-middleware-boilerplate"
+  },
   "main": "src/app.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
