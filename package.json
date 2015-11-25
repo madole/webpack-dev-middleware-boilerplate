@@ -1,7 +1,11 @@
 {
   "name": "expressapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack Dev Middleware Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/madole/webpack-dev-middleware-boilerplate"
+  },
   "main": "src/app.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,12 +16,16 @@
   "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "stats-webpack-plugin": "^0.2.2"
   },
   "devDependencies": {
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.9.3",
+    "coffeelint": "^1.14.1",
     "coffeelint-loader": "^0.1.1",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0",
     "stylus-loader": "^1.2.1",
     "webpack": "^1.11.0",
     "webpack-dev-middleware": "^1.2.0",
